@@ -14,7 +14,7 @@ public class ThirdPartyService {
 
     private final ThirdPartyApi thirdPartyApi;
 
-    public ThirdPartyModel getThirdPartyModelById(Integer id) {
+    public ThirdPartyModel getThirdPartyModelById(String id) {
         try {
             return thirdPartyApi.getById(id);
         } catch (FeignException feignException) {
