@@ -53,6 +53,17 @@
                 <version>1.7.7</version>
             </dependency>
 
+            <!-- =========== HYSTRIX =========== -->
+            <dependency>
+                <groupId>com.netflix.hystrix</groupId>
+                <artifactId>hystrix-core</artifactId>
+                <version>1.5.4</version>
+            </dependency>
+            <dependency>
+                <groupId>com.netflix.rxjava</groupId>
+                <artifactId>rxjava-core</artifactId>
+                <version>0.20.7</version>
+            </dependency>
 
             <!-- =========== LOMBOK =========== -->
             <dependency>
